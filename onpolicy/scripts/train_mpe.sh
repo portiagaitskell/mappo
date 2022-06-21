@@ -7,7 +7,7 @@ algo="rmappo"
 exp="exp_1"
 seed_max=1
 
-num_rollout_threads=1
+num_rollout_threads=128
 num_env_steps=5000000
 
 echo "env is ${env}, scenario is ${scenario}, algo is ${algo}, exp is ${exp}, max seed is ${seed_max}"
