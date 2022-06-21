@@ -108,6 +108,7 @@ def main(args):
                          job_type="training",
                          reinit=True)
     else:
+        print('Running without wandb')
         if not run_dir.exists():
             curr_run = 'run1'
         else:
